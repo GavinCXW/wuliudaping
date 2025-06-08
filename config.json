@@ -1,0 +1,20 @@
+{
+  "kpiConfig": [
+    { "title": "账面总库存", "key": "systemStock", "unit": "件", "useLocaleString": true },
+    { "title": "盘点总库存", "key": "physicalStock", "unit": "件", "useLocaleString": true },
+    { "title": "总SKU", "key": "totalSku", "unit": "" },
+    { "title": "差异SKU", "key": "diffSku", "unit": "" }
+  ],
+  "categoryComparisonConfig": {
+    "title": "分类库存对比",
+    "series": [
+      { "name": "账面库存", "type": "bar", "key": "systemStock" },
+      { "name": "盘点库存", "type": "bar", "key": "physicalStock" }
+    ]
+  },
+  "diffDetailsConfig": {
+    "title": "差异物料清单",
+    "headers": ["排名", "物料SKU", "物料名称", "账面数", "盘点数", "差异"],
+    "dataKeys": ["rank", "sku", "name", "systemQty", "physicalQty", "diff"]
+  }
+} 

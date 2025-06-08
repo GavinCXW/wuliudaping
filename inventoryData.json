@@ -1,0 +1,31 @@
+{
+  "overview": {
+    "totalSku": 182,
+    "systemStock": 461000,
+    "physicalStock": 460890,
+    "diffSku": 35,
+    "diffRate": "19.23%"
+  },
+  "categoryComparison": {
+    "categories": ["原材料", "在产品", "产成品", "备品备件"],
+    "systemStock": [280000, 110000, 63000, 8000],
+    "physicalStock": [279930, 109955, 63008, 7997]
+  },
+  "diffDetails": [
+    { "rank": 1, "sku": "RM-MET-LCO3", "name": "碳酸锂 (电池级)", "systemQty": 20000, "physicalQty": 19950, "diff": -50 },
+    { "rank": 2, "sku": "RM-MET-NISO4", "name": "硫酸镍 (电池级)", "systemQty": 15000, "physicalQty": 15010, "diff": 10 },
+    { "rank": 3, "sku": "RM-CAT-LFP01", "name": "磷酸铁锂 (A级)", "systemQty": 30000, "physicalQty": 29980, "diff": -20 },
+    { "rank": 4, "sku": "RM-ANO-GPH02", "name": "人造石墨 (改性)", "systemQty": 35000, "physicalQty": 35000, "diff": 0, "status": "一致" },
+    { "rank": 5, "sku": "RM-ELY-LFP01", "name": "电解液 (LFP专用)", "systemQty": 30000, "physicalQty": 29990, "diff": -10 },
+    { "rank": 6, "sku": "RM-SEP-PE05", "name": "5μm PE湿法隔膜", "systemQty": 150000, "physicalQty": 150000, "diff": 0, "status": "一致" },
+    { "rank": 7, "sku": "WIP-ELE-POS01", "name": "正极片 (LFP)", "systemQty": 80000, "physicalQty": 79950, "diff": -50 },
+    { "rank": 8, "sku": "WIP-CELL-U50", "name": "50Ah电芯 (未注液)", "systemQty": 25000, "physicalQty": 25005, "diff": 5 },
+    { "rank": 9, "sku": "WIP-MOD-S01", "name": "储能模组半成品", "systemQty": 5000, "physicalQty": 5000, "diff": 0, "status": "一致" },
+    { "rank": 10, "sku": "FG-BAT-EV100", "name": "100kWh动力电池包", "systemQty": 1000, "physicalQty": 998, "diff": -2 },
+    { "rank": 11, "sku": "FG-BAT-ESS20", "name": "20kWh储能电池系统", "systemQty": 2000, "physicalQty": 2000, "diff": 0, "status": "一致" },
+    { "rank": 12, "sku": "FG-BAT-3C5000", "name": "5000mAh消费类电芯", "systemQty": 60000, "physicalQty": 60010, "diff": 10 },
+    { "rank": 13, "sku": "MRO-CUT-M01", "name": "极片切割模具", "systemQty": 5000, "physicalQty": 4999, "diff": -1 },
+    { "rank": 14, "sku": "MRO-PUMP-H02", "name": "高精度注液泵头", "systemQty": 2000, "physicalQty": 2000, "diff": 0, "status": "一致" },
+    { "rank": 15, "sku": "MRO-TEST-V05", "name": "电压内阻测试仪", "systemQty": 1000, "physicalQty": 998, "diff": -2 }
+  ]
+} 
